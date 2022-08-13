@@ -11,7 +11,7 @@ const MastHead: NextPage = () => {
   const refContainer = useRef<HTMLDivElement>(null);
   const scrollY = useContext(ScrollContext);
   const [imageLoaded, setImageLoaded] = useState(false);
-  const { ref } = useParallax<HTMLDivElement>({ speed: 10 });
+  const { ref } = useParallax<HTMLDivElement>({ speed: 2 });
 
   let progress: number = 0;
   const { current: elContainer } = refContainer;

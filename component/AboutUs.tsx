@@ -105,7 +105,7 @@ const AboutUs: React.FC = () => {
                 mouseMoveX.y / 20
               }px)`,
             }}
-            className="absolute right-20 bottom-40 w-12 h-12 z-30"
+            className="absolute right-0 md:right-20 bottom-0 md:bottom-40 w-12 h-12 z-30"
           >
             <Image
               src="/assets/aboutphone/aboutphonemap.svg"
@@ -120,7 +120,7 @@ const AboutUs: React.FC = () => {
                 mouseMoveX.y / 20
               }px)`,
             }}
-            className="absolute left-20 w-12 h-12 z-30"
+            className="absolute left-10 md:left-20 w-12 h-12 z-30"
           >
             <Image
               src="/assets/aboutphone/aboutphoneshare.svg"
@@ -131,11 +131,11 @@ const AboutUs: React.FC = () => {
           </div>
         </div>
 
-        <div className="text-justify pt-10 lg:pt-0 lg:text-left lg:w-4/5">
+        <div className="text-justify pt-20 lg:pt-0 lg:text-left lg:w-4/5">
           <h1 className="text-3xl font-bold text-center lg:text-left">
             Create Your Itinerary
           </h1>
-          <p className="leading-10 py-12 text-lg">
+          <p className="lg:leading-10 py-12 text-lg">
             Over and over again, I hear people say that they find it hard to
             start planning an itinerary, it is overwhelming and confusing.
             Eventually, after all the fuss, they get there. Often at the start
