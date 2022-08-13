@@ -4,10 +4,13 @@ import React from "react";
 const PrivacyPolicy = () => {
   return (
     <section className="bg-light-white" id="privacypolicy">
-      <div className="container justify-center items-center mx-auto px-24 flex flex-1 flex-col py-12 bg-light-white text-center">
+      <div className="container justify-center items-center mx-auto px-4 md:px-24 flex flex-1 flex-col py-12 bg-light-white text-center">
         <h1 className="text-4xl font-semibold pb-6">Privacy &amp; Policy</h1>
 
-        <p className="text-lg text-justify lg:text-center">
+        <p
+          style={{ textAlign: "justify", textJustify: "inter-word" }}
+          className="text-lg text-justify lg:text-center"
+        >
           Adanya Kebijakan Privasi ini adalah komitmen nyata dari Funtravia
           untuk menghargai dan melindungi setiap informasi pribadi Pengguna
           Aplikasi ini. Kebijakan ini menjadi acuan yang mengatur dan melindungi

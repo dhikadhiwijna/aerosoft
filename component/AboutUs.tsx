@@ -33,7 +33,9 @@ const AboutUs: React.FC = () => {
             width={200}
             height={200}
           />
-          <p>Create Itinerary for your trip. Travel with buddy.</p>
+          <p className="text-lg">
+            Create Itinerary for your trip. Travel with buddy.
+          </p>
         </div>
         <div className="w-60 text-center">
           <Image
@@ -42,7 +44,7 @@ const AboutUs: React.FC = () => {
             width={200}
             height={200}
           />
-          <p>Share Travel Moment With Your Friends</p>
+          <p className="text-lg">Share Travel Moment With Your Friends</p>
         </div>
         <div className="w-60 text-center">
           <Image
@@ -51,7 +53,9 @@ const AboutUs: React.FC = () => {
             width={200}
             height={200}
           />
-          <p>Chat room. Say hi to all travelers around the world!</p>
+          <p className="text-lg">
+            Chat room. Say hi to all travelers around the world!
+          </p>
         </div>
         <div className="w-60 text-center">
           <Image
@@ -60,7 +64,9 @@ const AboutUs: React.FC = () => {
             width={200}
             height={200}
           />
-          <p>Hundreds Article For Your Trip Recommendation</p>
+          <p className="text-lg">
+            Hundreds Article For Your Trip Recommendation
+          </p>
         </div>
       </div>
 
@@ -147,7 +153,7 @@ const AboutUs: React.FC = () => {
             finished creating your dream itinerary? Lets make all of these steps
             easier with us, Funtravia.
           </p>
-          <div className="flex items-center md:items-start justify-center lg:justify-start gap-3 text-lg text-center flex-col md:flex-row ">
+          <div className="md:flex hidden items-center md:items-start justify-center lg:justify-start gap-3 text-lg text-center flex-col md:flex-row ">
             <div className="flex flex-col items-center gap-2 w-32">
               <Image
                 src="/assets/aboutphone/icon1.svg"

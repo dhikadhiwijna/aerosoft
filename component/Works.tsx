@@ -18,7 +18,9 @@ const Works = () => {
                 <div className="text-2xl md:text-3xl font-semibold mb-5 mt-12 md:mt-0">
                   Itinerary
                 </div>
-                <div>Create Itineray for your trip. Travel with buddy</div>
+                <div className="text-sm md:text-2xl">
+                  Create Itineray for your trip. Travel with buddy
+                </div>
               </WorkLeft>
               <WorkRight progress={progress}>
                 <Image
@@ -40,7 +42,9 @@ const Works = () => {
                 <div className="text-2xl md:text-3xl font-semibold mb-5 mt-12 md:mt-0">
                   FunFeed
                 </div>
-                <div className="">Share Travel Moment With Your Friends</div>
+                <div className="text-sm md:text-2xl">
+                  Share Travel Moment With Your Friends
+                </div>
               </WorkLeft>
               <WorkRight progress={progress}>
                 <Image
@@ -62,7 +66,9 @@ const Works = () => {
                 <div className="text-2xl md:text-3xl font-semibold  mb-5 mt-12 md:mt-0">
                   Chat
                 </div>
-                <div>Chat room. Say hi to all travelers around the world!</div>
+                <div className="text-sm md:text-2xl">
+                  Chat room. Say hi to all travelers around the world!
+                </div>
               </WorkLeft>
               <WorkRight progress={progress}>
                 <Image
@@ -84,7 +90,9 @@ const Works = () => {
                 <div className="text-2xl md:text-3xl font-semibold  mb-5 mt-12 md:mt-0">
                   Journal
                 </div>
-                <div>Hundreds Article For Your Trip Recommendation</div>
+                <div className="text-sm md:text-2xl">
+                  Hundreds Article For Your Trip Recommendation
+                </div>
               </WorkLeft>
               <WorkRight progress={progress}>
                 <Image
