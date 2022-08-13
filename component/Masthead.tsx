@@ -48,10 +48,10 @@ const MastHead: NextPage = () => {
 
       <div
         ref={ref}
-        className="relative pt-20 p-5 lg:p-48 font-bold z-10 text-white text-center lg:text-left flex-1 flex flex-col lg:flex-row items-center xl:items-start justify-start top-0 drop-shadow-[0_5px_3px_rgba(0,0,0,0.4)]"
+        className="relative pt-20 p-1 lg:p-48 font-bold z-10 text-white text-center lg:text-left flex-1 flex flex-col lg:flex-row items-center xl:items-start justify-start top-0 drop-shadow-[0_5px_3px_rgba(0,0,0,0.4)]"
       >
         <div
-          className={`w-3/4 z-50 duration-300 ${
+          className={`lg:w-3/4 z-50 duration-300 ${
             imageLoaded ? "opacity-100" : "opacity-0 -translate-y-10"
           }`}
         >
@@ -62,20 +62,20 @@ const MastHead: NextPage = () => {
             Satu aplikasi untuk kemudahan perjalanan liburanmu
           </h1>
 
-          <div className="lg:mt-24 -ml-5">
-            <h2 className="text-md lg:text-xl uppercase font-normal ml-4">
+          <div className="lg:mt-24 -ml-2">
+            <h2 className="text-md lg:text-xl uppercase font-normal ml-2">
               Download sekarang!
             </h2>
             <Image
               src="/assets/googleplay.svg"
               alt="Phone Logo"
-              width={160}
+              width={120}
               height={80}
             />
             <Image
               src="/assets/appleplay.svg"
               alt="Phone Logo"
-              width={160}
+              width={120}
               height={80}
             />
           </div>
@@ -102,7 +102,7 @@ const MastHead: NextPage = () => {
           href="https://vercel.com?utm_source=create-next-app&utm_medium=default-template&utm_campaign=create-next-app"
           target="_blank"
           rel="noopener noreferrer"
-          className={`absolute lg:hidden top-60 left:0 lg:-top-10 md:top-44 right-15 bg-transparent drop-shadow-[0_5px_3px_rgba(0,0,0,0.4)] duration-300 ${
+          className={`absolute lg:hidden top-80 left:0 lg:-top-10 md:top-44 right-15 bg-transparent drop-shadow-[0_5px_3px_rgba(0,0,0,0.4)] duration-300 ${
             imageLoaded ? "opacity-100" : "opacity-0 -translate-y-10"
           }`}
         >
