@@ -66,12 +66,14 @@ const MastHead: NextPage = () => {
             <h2 className="text-md lg:text-xl uppercase font-normal ml-2">
               Download sekarang!
             </h2>
+
             <Image
               src="/assets/googleplay.svg"
               alt="Phone Logo"
               width={120}
               height={80}
             />
+
             <Image
               src="/assets/appleplay.svg"
               alt="Phone Logo"

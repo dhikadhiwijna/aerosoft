@@ -25,7 +25,7 @@ const ContactUs = () => {
         <form
           className="flex flex-1 flex-col w-full"
           method="POST"
-          action="https://formsubmit.co/data.funtravia@gmail.com"
+          action="https://formsubmit.co/support@funtravia.com"
           encType="multipart/form-data"
         >
           <input

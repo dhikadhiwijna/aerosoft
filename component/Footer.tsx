@@ -1,5 +1,6 @@
 import Image from "next/image";
 import React from "react";
+import { Link, animateScroll as Scroll } from "react-scroll";
 
 const Footer = () => {
   return (
@@ -18,8 +19,11 @@ const Footer = () => {
           </h3>
         </div>
 
-        <div className="lg:flex lg:flex-1 lg:justify-between lg:mt-12">
-          <div className="my-6 flex justify-center items-center gap-2">
+        <div
+          className="lg:flex lg:flex-1 lg:justify-between lg:mt-12"
+          onClick={() => Scroll.scrollToTop()}
+        >
+          <div className="my-6 flex justify-center items-center gap-2 cursor-pointer">
             <Image
               src="/vercelblack.svg"
               alt="Funtravia-Logo"
@@ -31,10 +35,46 @@ const Footer = () => {
 
           <div className="flex gap-3 flex-col items-center text-md font-light text-center pb-6">
             <h3 className="font-bold text-lg">Home</h3>
-            <h3>About Us</h3>
-            <h3>Privacy Policy</h3>
-            <h3>Contact Us</h3>
-            <h3>Career</h3>
+            <Link
+              className="link"
+              to="aboutus"
+              spy={true}
+              smooth={true}
+              offset={-50}
+              duration={500}
+            >
+              <button>About Us</button>
+            </Link>
+            <Link
+              className="link"
+              to="privacypolicy"
+              spy={true}
+              smooth={true}
+              offset={-50}
+              duration={500}
+            >
+              <button>Privacy &amp; Policy</button>
+            </Link>
+            <Link
+              className="link"
+              to="contactus"
+              spy={true}
+              smooth={true}
+              offset={-50}
+              duration={500}
+            >
+              <button>Contact Us</button>
+            </Link>
+            <Link
+              className="link"
+              to="footer"
+              spy={true}
+              smooth={true}
+              offset={-50}
+              duration={500}
+            >
+              <button>Career</button>
+            </Link>
           </div>
 
           <div className="flex flex-col gap-3 items-center lg:items-start text-md font-light text-center lg:w-1/4 lg:text-left pb-6">
