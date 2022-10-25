@@ -12,8 +12,8 @@ const ContactUs = () => {
           we&apos;d love to hear from you
         </h3>
 
-        <div className="hidden lg:block w-1/2 text-left mx-12 px-24">
-          <h1 className="text-4xl md:text-5xl pb-12 font-bold text-gray">
+        <div className="hidden lg:block w-1/2 text-left">
+          <h1 className="text-4xl md:text-4xl pb-12 font-bold text-gray">
             Want to ask our team directly?
           </h1>
           <h3 className="pb-8 text-xl">
@@ -29,25 +29,25 @@ const ContactUs = () => {
           encType="multipart/form-data"
         >
           <input
-            className="py-5 my-4 px-5 border-2 border-white rounded-md drop-shadow-[0_5px_3px_rgba(0,0,0,0.1)] focus:outline-none focus:border-light-green hover:border-light-green duration-300"
+            className="py-3 my-2 px-5 border-2 border-white rounded-md drop-shadow-[0_5px_3px_rgba(0,0,0,0.1)] focus:outline-none focus:border-light-green hover:border-light-green duration-300"
             type="text"
             name="Nama"
             placeholder="Name"
           />
           <input
-            className="py-5 my-4 px-5 border-2 border-white rounded-md drop-shadow-[0_5px_3px_rgba(0,0,0,0.1)] focus:outline-none focus:border-light-green hover:border-light-green duration-300"
+            className="py-3 my-2 px-5 border-2 border-white rounded-md drop-shadow-[0_5px_3px_rgba(0,0,0,0.1)] focus:outline-none focus:border-light-green hover:border-light-green duration-300"
             type="email"
             name="Email"
             placeholder="Email"
           />
           <input
-            className="py-5 my-4 px-5 border-2 border-white rounded-md drop-shadow-[0_5px_3px_rgba(0,0,0,0.1)] focus:outline-none focus:border-light-green hover:border-light-green duration-300"
+            className="py-3 my-2 px-5 border-2 border-white rounded-md drop-shadow-[0_5px_3px_rgba(0,0,0,0.1)] focus:outline-none focus:border-light-green hover:border-light-green duration-300"
             type="text"
             name="Judul"
             placeholder="Subject"
           />
           <textarea
-            className="py-5 my-4 px-5 border-2 border-white rounded-md drop-shadow-[0_5px_3px_rgba(0,0,0,0.1)] focus:outline-none focus:border-light-green hover:border-light-green duration-300"
+            className="py-3 my-2 px-5 border-2 border-white rounded-md drop-shadow-[0_5px_3px_rgba(0,0,0,0.1)] focus:outline-none focus:border-light-green hover:border-light-green duration-300"
             placeholder="Message"
             name="Pesan"
             cols={5}
@@ -55,7 +55,7 @@ const ContactUs = () => {
           />
           <div className="w-full flex justify-center lg:justify-end">
             <input
-              className="cursor-pointer duration-300 hover:bg-pink py-3 rounded-md px-32 bg-light-green text-white my-6"
+              className="cursor-pointer duration-300 hover:bg-pink py-3 rounded-md px-16 bg-light-green text-white my-6"
               type="submit"
               placeholder="Submit"
             ></input>

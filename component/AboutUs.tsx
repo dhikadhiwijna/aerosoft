@@ -23,7 +23,7 @@ const AboutUs: React.FC = () => {
 
   return (
     <section
-      className={`flex flex-col justify-center items-center py-20 bg-white text-xl md:text-lg`}
+      className={`flex flex-col justify-center items-center py-20 bg-gradient-to-b from-white to-light-white text-xl md:text-lg`}
     >
       <div className="px-11 grid grid-cols-1 sm:grid-cols-2 xl:grid-cols-4">
         <div className="text-center w-60">

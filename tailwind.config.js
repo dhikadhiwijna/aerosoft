@@ -1,9 +1,6 @@
 module.exports = {
   content: ["./pages/**/*.{js,ts,jsx,tsx}", "./component/**/*.{js,ts,jsx,tsx}"],
   theme: {
-    backgroundImage: {
-      "pack-train": "url('../assets/headerimage3.jpg')",
-    },
     letterSpacing: {
       tight: "-.015em",
     },

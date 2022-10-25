@@ -37,16 +37,17 @@ export const WorkLeft: React.FC<{
 };
 
 export const WorkRight: React.FC<{
+  page: number;
   progress: number;
   children: React.ReactNode;
-}> = ({ children, progress }) => {
+}> = ({ children, progress, page }) => {
   let translateY = Math.max(-50, -(progress - 0.5) * 50);
   if (progress > 0.85) translateY = Math.max(-50, -(progress - 0.8));
 
   return (
     <div
-      className="flex flex-1 lg:items-center justify-center h-screen"
-      style={{ transform: `translateY(${translateY}px)` }}
+      className={`flex flex-1 lg:items-center justify-center h-screen bg-gradient-to-b from-white to-light-white`}
+      style={{ transform: `translateY(${page !== 3 ? translateY : 0}px)` }}
     >
       <div className="w-full max-w-md pt-10 lg:pt-0 px-10 md:px-0">
         {children}

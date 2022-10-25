@@ -22,7 +22,7 @@ const Works = () => {
                   Create Itineray for your trip. Travel with buddy
                 </div>
               </WorkLeft>
-              <WorkRight progress={progress}>
+              <WorkRight progress={progress} page={0}>
                 <Image
                   src="/assets/showcase/itinerary.svg"
                   alt="itinerary"
@@ -46,7 +46,7 @@ const Works = () => {
                   Share Travel Moment With Your Friends
                 </div>
               </WorkLeft>
-              <WorkRight progress={progress}>
+              <WorkRight progress={progress} page={1}>
                 <Image
                   src="/assets/showcase/funfeed.svg"
                   alt="funfeed"
@@ -70,7 +70,7 @@ const Works = () => {
                   Chat room. Say hi to all travelers around the world!
                 </div>
               </WorkLeft>
-              <WorkRight progress={progress}>
+              <WorkRight progress={progress} page={2}>
                 <Image
                   src="/assets/showcase/chat.svg"
                   alt="chat"
@@ -94,7 +94,7 @@ const Works = () => {
                   Hundreds Article For Your Trip Recommendation
                 </div>
               </WorkLeft>
-              <WorkRight progress={progress}>
+              <WorkRight progress={progress} page={3}>
                 <Image
                   src="/assets/showcase/journal.svg"
                   alt="journal"

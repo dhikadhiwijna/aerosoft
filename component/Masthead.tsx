@@ -25,7 +25,7 @@ const MastHead: NextPage = () => {
     // Video & Text Header
     <div
       ref={refContainer}
-      className="min-h-screen flex flex-col justify-center items-center bg-light-green sticky -mt-[3.7em] md:-mt-[4.7em] top-0 -z-10"
+      className="min-h-screen flex flex-col justify-center items-center bg-light-white sticky -mt-[3.7em] md:-mt-[4.7em] top-0 -z-10"
       style={{ transform: `translateY(-${progress * 20}vh)` }}
       id="header"
     >
@@ -48,7 +48,7 @@ const MastHead: NextPage = () => {
 
       <div
         ref={ref}
-        className="relative pt-20 p-1 lg:p-48 font-bold z-10 text-white text-center lg:text-left flex-1 flex flex-col lg:flex-row items-center xl:items-start justify-start top-0 drop-shadow-[0_5px_3px_rgba(0,0,0,0.4)]"
+        className="absolute lg:px-48 font-bold z-10 text-white text-center lg:text-left flex-1 flex flex-col lg:flex-row items-center xl:items-center justify-center top-24 lg:bottom-0 drop-shadow-[0_5px_3px_rgba(0,0,0,0.4)]"
       >
         <div
           className={`lg:w-3/4 z-50 duration-300 ${
@@ -87,15 +87,15 @@ const MastHead: NextPage = () => {
           href="https://vercel.com?utm_source=create-next-app&utm_medium=default-template&utm_campaign=create-next-app"
           target="_blank"
           rel="noopener noreferrer"
-          className={`hidden lg:block absolute top-60 lg:-top-10 md:top-40 right-10 bg-transparent drop-shadow-[0_5px_3px_rgba(0,0,0,0.4)] duration-300 ${
+          className={`hidden lg:block right-10 bg-transparent drop-shadow-[0_5px_3px_rgba(0,0,0,0.4)] duration-300 ${
             imageLoaded ? "opacity-100" : "opacity-0 -translate-y-10"
           }`}
         >
           <Image
-            src="/phone.svg"
+            src="/assets/svg/icon-banner.svg"
             alt="Phone Logo"
-            width={600}
-            height={900}
+            width={300}
+            height={500}
             onLoad={handleImageLoaded}
           />
         </a>
@@ -104,7 +104,7 @@ const MastHead: NextPage = () => {
           href="https://vercel.com?utm_source=create-next-app&utm_medium=default-template&utm_campaign=create-next-app"
           target="_blank"
           rel="noopener noreferrer"
-          className={`absolute lg:hidden top-80 left:0 lg:-top-10 md:top-44 right-15 bg-transparent drop-shadow-[0_5px_3px_rgba(0,0,0,0.4)] duration-300 ${
+          className={`absolute lg:hidden top-32 left:0 lg:-top-10 md:top-44 right-15 bg-transparent drop-shadow-[0_5px_3px_rgba(0,0,0,0.4)] duration-300 ${
             imageLoaded ? "opacity-100" : "opacity-0 -translate-y-10"
           }`}
         >
@@ -116,6 +116,15 @@ const MastHead: NextPage = () => {
             onLoad={handleImageLoaded}
           />
         </a>
+      </div>
+      <div className="absolute bottom-0 md:bottom-10">
+        <Image
+          src="/assets/gif/scroll_white.gif"
+          alt="scroll"
+          width={50}
+          height={50}
+          onLoad={handleImageLoaded}
+        />
       </div>
     </div>
   );
