@@ -1,0 +1,12 @@
+{
+  "faq": [
+    {
+      "title": "Darimana jika saya ingin membuat postingan baru?",
+      "description": "Anda dapat membuat postingan baru melalui feed, pada halaman feed terdapat ikon pink yang terdapat di kanan bawah halaman. Tekan ikon tersebut, pilih foto yang ingin anda posting, lalu anda dapat menulis caption dan menambahkan lokasi postingan yang anda buat. "
+    },
+    {
+      "title": "Apakah saya bisa mengedit postingan saya sendiri?",
+      "description": "Bisa, Anda bisa edit postingan sendiri dengan cara pilih titik 3 di postingan tersebut dan pilih edit,yang bisa di edit hanya keterangan dari postingan tersebut."
+    }
+  ]
+}

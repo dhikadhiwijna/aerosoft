@@ -25,7 +25,7 @@ const Footer = () => {
         >
           <div className="my-6 flex justify-center items-center gap-2 cursor-pointer">
             <Image
-              src="/vercelblack.svg"
+              src="/assets/png/logo.png"
               alt="Funtravia-Logo"
               width={50}
               height={50}

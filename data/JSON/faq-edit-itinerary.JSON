@@ -1,0 +1,20 @@
+{
+  "faq": [
+    {
+      "title": "Apakah saya masih bisa menyunting plan saya jika plan tersebut sudah saya complete plan?",
+      "description": "Bisa, jika anda sudah menekan tombol complete plan, maka itinerary Anda akan berubah statusnya menjadi ongoing. Dan tombol complete plan tersebut akan berubah menjadi tombol edit yang memperbolehkan Anda untuk merubah plan anda sewaktu-waktu"
+    },
+    {
+      "title": "Bagaimana cara mengubah sampul itinerary?",
+      "description": "Anda bisa klik ikon 3 titik yang terdapat di kanan atas halaman itinerary, lalu pilih ubah sampul"
+    },
+    {
+      "title": "Bagaimana cara saya mengatur/memindahkan posisi destinasi atau aktivitas dalam perjalanan saya?",
+      "description": "Tekan dan tahan destinasi yang ingin anda ubah posisinya, lalu atur posisi dengan tarik ke atas atau ke bawah sesuai dengan yang diinginkan"
+    },
+    {
+      "title": "Jika saya merubah waktu atau durasi destinasi dalam perjalanan saya, apakah waktu destinasi lain akan ikut ke ubah?",
+      "description": "Iya, jika anda merubah waktu atau durasi destinasi dalam perjalanan anda, maka durasi destinasi yang terdapat di bawah destinasi tersebut akan otomatis mengikuti perubahan yang ada"
+    }
+  ]
+}

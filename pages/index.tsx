@@ -1,24 +1,24 @@
 import type { NextPage } from "next";
 import Head from "next/head";
-import AboutUs from "../component/AboutUs";
-import ContactUs from "../component/ContactUs";
+import AboutUs from "../component/Home/AboutUs";
+import ContactUs from "../component/Home/ContactUs";
 import Footer from "../component/Footer";
-import MastHead from "../component/Masthead";
+import MastHead from "../component/Home/Masthead";
 import NavigationBar from "../component/Navbar";
-import PrivacyPolicy from "../component/PrivacyPolicy";
-import Works from "../component/Works";
+import PrivacyPolicy from "../component/Home/PrivacyPolicy";
+import Works from "../component/Home/Works";
 
 const Home: NextPage = () => {
   return (
     <div>
       <Head>
         <title>Funtravia</title>
-        <meta name="description" content="Funtravia's Landing Page" />
-        <link rel="icon" href="/vercel.svg" />
+        <meta name="description" content="Funtravia" />
+        <link rel="icon" href="/assets/png/logo.png" />
       </Head>
 
       <main>
-        <NavigationBar />
+        {/* <NavigationBar /> */}
         <MastHead />
         <AboutUs />
         <PrivacyPolicy />

@@ -1,0 +1,12 @@
+{
+  "faq": [
+    {
+      "title": " Bagaimana cara menghapus itinerary yang sudah saya buat ?",
+      "description": "Anda dapat klik ikon 3 titik yang terdapat di kanan atas halaman itinerary, lalu pilih hapus."
+    },
+    {
+      "title": " Apakah saya bisa menghapus destinasi atau bahkan itinerary saya di satu hari tertentu?",
+      "description": "Bisa, anda dapat menghapus destinasi melalui titik 3 yang terdapat di setiap destinasi yang anda masukkan dan Anda juga dapat menghapus itinerary anda yang sudah anda rencanakan per hari melalui titik 3 yang terdapat sebaris di setiap hari."
+    }
+  ]
+}

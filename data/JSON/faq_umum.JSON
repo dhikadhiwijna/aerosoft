@@ -1,0 +1,20 @@
+{
+  "faq": [
+    {
+      "title": "Apa itu Funtravia?",
+      "description": "Funtravia adalah aplikasi untuk memudahkan traveller dalam melakukan perjalanan dengan fitur seperti membuat Itinerary, memposting foto ke  Fun Feed, dan komunikasi ke sesama pengguna funtravia menggunakan Fun Chat"
+    },
+    {
+      "title": "Bagaimana cara posting foto ke Fun Feed?",
+      "description": "Anda dapat membuat postingan baru melalui feed, pada halaman feed terdapat ikon pink yang terdapat di kanan bawah halaman. Tekan ikon tersebut, pilih foto yang ingin anda posting, lalu anda dapat menulis caption dan menambahkan lokasi postingan yang anda buat."
+    },
+    {
+      "title": "Kirim pesan ke seseorang di Funtravia",
+      "description": "Untuk memulai percakapan baru klik icon pesan ada chat personal dan chat grup,untuk memulai percakapan baru chat personal klik icon pensil dipojok kiri bawah pilih akun yang ingin dichat dan untuk memulai percakapan baru chat grup bisa pindah ke halaman chat grup,di chat grup ada 2 bagian yaitu grup biasa dan grup trip dari itinerary."
+    },
+    {
+      "title": "Bagaimana cara mengganti password?",
+      "description": "Untuk mengganti password anda bisa ke pengaturan, lalu klik menu informasi akun dan pilih password dibawah email."
+    }
+  ]
+}

@@ -1,0 +1,17 @@
+{
+    "faq": [
+      {
+        "title": "Apakah saya bisa mengikuti profil orang lain?",
+        "description": "Bisa, Di Halaman feed  klik titik tiga di postingan orang tersebut lalu pilih ikuti."
+      },
+      {
+        "title": "Bagaimana jika saya ingin berhenti mengikuti orang lain?",
+        "description": "Pilih titik tiga tipostingan orang tersebut lalu pilih berhenti mengikuti."
+      },
+      {
+        "title": "apakah orang lain bisa mencari profil saya?",
+        "description": "Bisa, di halaman feed pilih icon kaca pembesar sebelah kanan atas lalu cari nama akun di bagian akun."
+      }
+    ]
+  }
+  

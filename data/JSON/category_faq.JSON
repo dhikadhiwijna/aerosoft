@@ -1,0 +1,20 @@
+{
+  "category": [
+    {
+      "image": "icon-itinerary-green.svg",
+      "title": "Itinerary"
+    },
+    {
+      "image": "icon-feed-green.svg",
+      "title": "Feed"
+    },
+    {
+      "image": "icon-chat-green.svg",
+      "title": "Chat"
+    },
+    {
+      "image": "icon-account-green.svg",
+      "title": "Account"
+    }
+  ]
+}

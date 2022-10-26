@@ -1,0 +1,37 @@
+{
+    "faq": [
+      {
+        "title": "bagaimana cara membuat grup chat?",
+        "description": "Dihalaman chat grup klik icon orang di bagian kanan  bawah pilih nama akun yang akan di masukan ke grup dan tulis nama grup."
+      },
+      {
+        "title": "Bagaimana cara menambah anggota grup chat?",
+        "description": "Yang bisa menambah anggota grup hanya admin selain admin tidak bisa."
+      },
+      {
+        "title": "Bagaimana cara mengedit nama grup?",
+        "description": "Semua anggota grup bisa edit nama grupnya sendiri."
+      },
+      {
+        "title": "Bagaimana cara mengganti cover photo grup?",
+        "description": "Semua anggota grup bisa mengganti cover photo grup."
+      },
+      {
+        "title": "Bagaimana saya menjadikan anggota grup menjadi admin?",
+        "description": "Masuk ke detail chat grup dan pilih akun geser ke kiri nama akun dan pilih jadikan admin."
+      },
+      {
+        "title": "Bagaimana cara saya mengeluarkan anggota grup?",
+        "description": "Yang bisa mengeluarkan anggota grup hanya admin,kedetail chat grup dan geser kekiri nama akun lalu hapus."
+      },
+      {
+        "title": "Bagaimana cara keluar dari grup chat?",
+        "description": "Kedetail grup klik titik 3 sebelah kanan atas dan pilih keluar grup."
+      },
+      {
+        "title": "Bagaimana cara menghapus anggota admin?",
+        "description": "Yang bisa menghapus admin adalah orang yang membuat chat grup,pilih anggota grup admin dan geser kekiri lalu hapus admin."
+      }
+    ]
+  }
+  

@@ -1,0 +1,13 @@
+{
+    "faq": [
+      {
+        "title": "bagaimana cara membuat akun di Funtravia?",
+        "description": "Registrasi secara manual, install aplikasi pilih buat akun dan isi semua data dan masukan juga kode otp yang dikirim ke alamat email yang di daftarkan."
+      },
+      {
+        "title": "apakah bisa membuat akun dengan menggunakan google?",
+        "description": "Bisa,registrasi menggunakan google pilih akun google dan akun otomatis ke create."
+      }
+    ]
+  }
+  

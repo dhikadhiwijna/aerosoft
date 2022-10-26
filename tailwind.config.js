@@ -7,6 +7,10 @@ module.exports = {
     extend: {
       height: {
         "half-screen": "50vh",
+        "half-full-screen": "75vh",
+      },
+      backgroundImage: {
+        "header-screen": "url('/assets/png/bg-about.png')",
       },
       colors: {
         "light-green": "#209FAE",

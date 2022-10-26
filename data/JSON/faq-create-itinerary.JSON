@@ -1,0 +1,28 @@
+{
+  "faq": [
+    {
+      "title": "Apakah saya bisa membuat aktivitas perjalanan saya sendiri di itinerary saya ?",
+      "description": "Tentu saja, Jika anda ingin membuat aktivitas perjalanan Anda sendiri, maka Anda bisa menggunakan fitur “Buat Aktivitas Baru” yang terdapat dalam tombol  “Opsi Lainnya”. Anda dapat menentukan judul, durasi, alamat dan dapat menentukan posisi aktivitas yang Anda buat tersebut di itinerary Anda."
+    },
+    {
+      "title": "Kenapa tidak ada tombol save di halaman ketika plan itinerary ?",
+      "description": "Tidak adanya tombol save di halaman ketika plan itinerary dikarenakan setiap perubahan yang Anda lakukan dalam itinerary yang sedang Anda rencanakan akan tersimpan secara otomatis"
+    },
+    {
+      "title": "Bagaimana cara agar trip saya statusnya menjadi Finish?",
+      "description": "Jika waktu perjalanan Anda sudah berakhir, maka itinerary atau plan Anda akan otomatis berpindah dari status ongoing ke Finish Trip. Jika tanggal itinerary sudah lewat dari tanggal hari ini dan belum ada activity kita bisa ubah tanggal atau finishkan plan nya dengan cara klik complete plan dan muncul 2 pilihan yaitu rubah tanggal / trip tetep lanjut ke finish."
+    },
+    {
+      "title": "Apakah saya bisa mengundang travel buddy didalam itinerary?",
+      "description": "Bisa, anda dapat menekan bagian “Travel Buddy” yang berada di bawah tanggal perjalanan anda di dalam itinerary. Disitu anda dapat melihat travel buddy Anda yang belum menerima undangan trip dan yang sudah. Jika ingin mengundang lebih banyak, Anda dapat menekan “Undang Teman Lainnya”."
+    },
+    {
+      "title": "Apa perbedaan pemilik, admin dan hanya anggota di dalam itinerary?",
+      "description": "Pemilik <br/><p> - Yang membuat itinerary</p><p> - Mengundang travel buddy</p> <p> - Menghapus travel buddy</p><p> - Menjadikan travel buddy admin</p><p> - Mengganti foto sampul itinerary</p><p> - Menghapus Itinerary<p/><p> - Menyunting itinerary<p/> Admin <br/> <p> - Mengundang travel buddy </p> <p> - Menghapus travel buddy </p> <p> - Menyunting itinerary </p> <p> - Mengganti foto sampul itinerary </p> Hanya Anggota <br/><p> - Mengganti foto sampul itinerary </p> <p> - Menyunting itinerary </p>"
+    },
+    {
+      "title": "Apakah saya bisa menambah hari dalam trip saya ketika saya sudah memulai perencanaan ?",
+      "description": "Bisa, Anda hanya perlu menekan tombol tambah (+) yang berada sebaris dengan hari 1, hari 2, dst di dalam perjalanan Anda"
+    }
+  ]
+}

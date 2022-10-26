@@ -1,0 +1,16 @@
+{
+  "faq": [
+    {
+      "title": "Apa itu itinerary ?",
+      "description": "Merancang rencana perjalanan anda dengan mudah dan berbagai destinasi-destinasi yang menarik untuk di kunjungi."
+    },
+    {
+      "title": "Apa itu itinerary private? siapa saja yang bisa melihat itinerary yang di private?",
+      "description": "Itinerary yang anda buat bisa di private dan bisa di public,jika itinerary di private orang yang bisa melihat detail itinerary hanya anggota grup tersebut."
+    },
+    {
+      "title": "Apa itu itinerary public? siapa saja yang bisa melihat itinerary yang di public?",
+      "description": "Itinerary yang anda buat bisa di private dan bisa di public, Itinerary public akan muncul di beranda itinerary home,semua orang bisa melihat detail itinerary tersebut."
+    }
+  ]
+}

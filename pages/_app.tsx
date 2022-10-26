@@ -8,6 +8,7 @@ function MyApp({ Component, pageProps }: AppProps) {
   return (
     <ScrollObserver>
       <ParallaxProvider>
+        <NavigationBar />
         <Component {...pageProps} />
       </ParallaxProvider>
     </ScrollObserver>

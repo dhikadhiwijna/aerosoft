@@ -1,0 +1,13 @@
+{
+    "faq": [
+      {
+        "title": "Dimana saya bisa melihat notifikasi?",
+        "description": "Di halaman beranda pilih icon lonceng sebelah kanan,semua notifikasi berada disana."
+      },
+      {
+        "title": "apakah saya bisa menghapus notifikasi yang sudah dibaca?",
+        "description": "Bisa, klik icon tong sampah sebelah kanan,semua notifikasi akan terhapus semua."
+      }
+    ]
+  }
+  

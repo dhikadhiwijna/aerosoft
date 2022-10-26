@@ -1,0 +1,37 @@
+{
+    "faq": [
+      {
+        "title": "Dari mana saya dapat merubah data profile dan informasi akun saya ?",
+        "description": "Jika anda ingin merubah data profile (nama depan, nama belakang, username dan bio), maka dapat melalui edit profile yang terdapat di halaman profile anda. Jika anda ingin merubah informasi akun (nama depan, nama belakang, tanggal lahir, jenis kelamin, kota tinggal, email dan nomor telepon), maka dapat melalui pengaturan informasi akun yang terdapat di halaman akun."
+      },
+      {
+        "title": "Bagaimana cara untuk merubah password akun saya?",
+        "description": "Pengaturan,menu informasi akun dan pilih password dibawah email."
+      },
+      {
+        "title": "bagaimana cara untuk menghubungkan akun saya ke google?",
+        "description": "Pengaturan, menu informasi akun dan di akun terkait hubungkan ke akun google."
+      },
+      {
+        "title": "bagaimana cara mengganti bahasa aplikasi?",
+        "description": "Pengaturan,di pengaturan akun pilih bahasa."
+      },
+      {
+        "title": "bagaimana cara mengganti pengaturan negara?",
+        "description": "Pengaturan,di pengaturan akun pilih negara."
+      },
+      {
+        "title": "Bagaimana cara mengubah jenis kelamin?",
+        "description": "Pengaturan,pilih informasi akun,di bagian data pribadi pilih jenis kelamin."
+      },
+      {
+        "title": "bagaimana cara merubah tanggal lahir?",
+        "description": "Pengaturan,pilih informasi akun,di bagian data pribadi pilih tanggal lahir."
+      },
+      {
+        "title": "bagaimana cara merubah domisili?",
+        "description": "Pengaturan,pilih informasi akun,di bagian data pribadi pilih kota tinggal."
+      }
+    ]
+  }
+  
