@@ -4,8 +4,11 @@ import {
   MouseParallaxChild,
   MouseParallaxContainer,
 } from "react-parallax-mouse";
+import IntersectObserver from "../../utils/intersection-observer";
 
 const AboutUs: React.FC = () => {
+  const intersectionObserver = IntersectObserver;
+
   const [mouseMoveX, setMouseMoveX] = useState({
     x: 0,
     y: 0,
@@ -20,6 +23,10 @@ const AboutUs: React.FC = () => {
 
     return () => document.removeEventListener("mousemove", mouseHover as any);
   }, [mouseMoveX]);
+
+  useEffect(() => {
+    intersectionObserver();
+  }, [intersectionObserver]);
 
   return (
     <section
@@ -137,11 +144,11 @@ const AboutUs: React.FC = () => {
           </div>
         </div>
 
-        <div className="text-justify pt-20 lg:pt-0 lg:text-left lg:w-4/5">
-          <h1 className="text-3xl font-bold text-center lg:text-left">
+        <div className="text-justify delay-500 pt-20 lg:pt-0 lg:text-left lg:w-4/5">
+          <h1 className="hidden-div text-3xl font-bold text-center lg:text-left">
             Create Your Itinerary
           </h1>
-          <p className="lg:leading-10 py-12 text-lg">
+          <p className="hidden-div delay-1000 lg:leading-10 py-12 text-lg">
             Over and over again, I hear people say that they find it hard to
             start planning an itinerary, it is overwhelming and confusing.
             Eventually, after all the fuss, they get there. Often at the start

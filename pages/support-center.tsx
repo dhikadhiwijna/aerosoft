@@ -18,7 +18,7 @@ const Support: NextPage = () => {
   return (
     <div>
       <Head>
-        <title>Support Center</title>
+        <title>Funtravia Support Center</title>
         <meta name="description" content="Support Center" />
         <link rel="icon" href="/assets/png/logo.png" />
       </Head>

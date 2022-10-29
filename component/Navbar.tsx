@@ -86,7 +86,6 @@ const NavigationBar = () => {
       </Link>
     </ul>
   );
-  console.log("ROUTE:", router.asPath);
 
   return (
     <Navbar

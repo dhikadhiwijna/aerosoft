@@ -18,7 +18,7 @@ const Contact: NextPage = () => {
   return (
     <div>
       <Head>
-        <title>Contact Us</title>
+        <title>Funtravia Contact</title>
         <meta name="description" content="Contact Us" />
         <link rel="icon" href="/assets/png/logo.png" />
       </Head>

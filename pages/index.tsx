@@ -4,7 +4,6 @@ import AboutUs from "../component/Home/AboutUs";
 import ContactUs from "../component/Home/ContactUs";
 import Footer from "../component/Footer";
 import MastHead from "../component/Home/Masthead";
-import NavigationBar from "../component/Navbar";
 import PrivacyPolicy from "../component/Home/PrivacyPolicy";
 import Works from "../component/Home/Works";
 

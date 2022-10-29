@@ -58,7 +58,7 @@ const AboutUs: NextPage = () => {
   return (
     <div>
       <Head>
-        <title>About Us</title>
+        <title>Funtravia - About Us</title>
         <meta name="description" content="About Us" />
         <link rel="icon" href="/assets/png/logo.png" />
       </Head>
@@ -93,7 +93,7 @@ const AboutUs: NextPage = () => {
             </div>
           </div>
           <div
-            className={`hidden lg:block duration-300 ${
+            className={`hidden lg:block rounded-full bg-pink hover:bg-red-500 duration-300 ${
               imageLoaded ? "opacity-100" : "opacity-0 -translate-y-10"
             }`}
           >

@@ -12,20 +12,16 @@ body {
   padding: 0;
 }
 
-/* a {
-  color: inherit;
-  text-decoration: none;
+.hidden-div {
+  opacity: 0;
+  filter: blur(5px);
+  transform: translateY(-100%);
+  transition: all 2s;
 }
 
-* {
-  box-sizing: border-box;
-} */
-/* @media (prefers-color-scheme: dark) {
-  html {
-    color-scheme: dark;
-  }
-  body {
-    color: white;
-    background: black;
-  }
-} */
+.show-div {
+  opacity: 1;
+  transition: all 1s;
+  filter: blur(0px);
+  transform: translateY(0);
+}

@@ -58,7 +58,7 @@ const Career: NextPage = () => {
   return (
     <div>
       <Head>
-        <title>Career</title>
+        <title>Funtravia Career</title>
         <meta name="description" content="Career" />
         <link rel="icon" href="/assets/png/logo.png" />
       </Head>

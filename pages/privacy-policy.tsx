@@ -30,7 +30,7 @@ const PrivacyPolicy: NextPage = () => {
   return (
     <div>
       <Head>
-        <title>Terms & policy</title>
+        <title>Funtravia - Terms & policy</title>
         <meta name="description" content="Terms & policy" />
         <link rel="icon" href="/assets/png/logo.png" />
       </Head>
