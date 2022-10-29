@@ -68,25 +68,21 @@ const MastHead: NextPage = () => {
               Download sekarang!
             </h2>
             <Link href="https://play.google.com/store/apps/details?id=com.funtravia.apps">
-              <a>
-                <Image
-                  src="/assets/googleplay.svg"
-                  alt="Phone Logo"
-                  width={120}
-                  height={80}
-                />
-              </a>
+              <Image
+                src="/assets/googleplay.svg"
+                alt="Phone Logo"
+                width={120}
+                height={80}
+              />
             </Link>
 
             <Link href="https://play.google.com/store/apps/details?id=com.funtravia.apps">
-              <a>
-                <Image
-                  src="/assets/appleplay.svg"
-                  alt="Phone Logo"
-                  width={120}
-                  height={80}
-                />
-              </a>
+              <Image
+                src="/assets/appleplay.svg"
+                alt="Phone Logo"
+                width={120}
+                height={80}
+              />
             </Link>
           </div>
         </div>

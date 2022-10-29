@@ -96,39 +96,35 @@ const NavigationBar = () => {
       <div className="container mx-auto px-6 max-w-screen-2xl flex items-center justify-between text-blue-gray-900">
         <div className="mr-4 cursor-pointer py-1.5 font-normal">
           <Link href={"/"}>
-            <a>
-              <div
-                className="flex justify-center items-center gap-2  cursor-pointer hover:drop-shadow-[1px_1px_1px_rgba(255,255,255,0.6)] duration-100"
-                onClick={() => router.asPath === "/" && Scroll.scrollToTop()}
+            <div
+              className="flex justify-center items-center gap-2  cursor-pointer hover:drop-shadow-[1px_1px_1px_rgba(255,255,255,0.6)] duration-100"
+              onClick={() => router.asPath === "/" && Scroll.scrollToTop()}
+            >
+              <Image
+                src="/assets/png/logo.png"
+                alt="Funtravia-Logo"
+                width={30}
+                height={30}
+              />
+              <h3
+                className={`text-xl ${
+                  router.asPath === "/"
+                    ? "text-white"
+                    : scrollY > 720 || openNav
+                    ? "text-white"
+                    : "text-dark-gray"
+                }`}
               >
-                <Image
-                  src="/assets/png/logo.png"
-                  alt="Funtravia-Logo"
-                  width={30}
-                  height={30}
-                />
-                <h3
-                  className={`text-xl ${
-                    router.asPath === "/"
-                      ? "text-white"
-                      : scrollY > 720 || openNav
-                      ? "text-white"
-                      : "text-dark-gray"
-                  }`}
-                >
-                  funtravia
-                </h3>
-              </div>
-            </a>
+                funtravia
+              </h3>
+            </div>
           </Link>
         </div>
         <div className="flex items-center justify-center gap-2 lg:gap-8">
           <div className="hidden lg:block">{navList}</div>
           <Link href="https://play.google.com/store/apps/details?id=com.funtravia.apps">
             <button className="hidden lg:inline-block py-3 px-8 bg-pink hover:bg-light-green duration-300 rounded-md">
-              <a href="https://play.google.com/store/apps/details?id=com.funtravia.apps">
-                <span>Download Apps</span>
-              </a>
+              <span>Download Apps</span>
             </button>
           </Link>
         </div>
@@ -172,11 +168,9 @@ const NavigationBar = () => {
         {navList}
         <Link href="https://play.google.com/store/apps/details?id=com.funtravia.apps">
           <Button variant="gradient" size="sm" fullWidth className="mb-2">
-            <a>
-              <span className="py-3 px-12 text-sm bg-pink rounded-md">
-                Download Apps
-              </span>
-            </a>
+            <span className="py-3 px-12 text-sm bg-pink rounded-md">
+              Download Apps
+            </span>
           </Button>
         </Link>
       </MobileNav>
