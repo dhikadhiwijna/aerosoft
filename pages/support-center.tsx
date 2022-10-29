@@ -1,6 +1,6 @@
 import { NextPage } from "next";
 import { useState, useCallback } from "react";
-import Image from "next/image";
+import Image from "next/legacy/image";
 import React from "react";
 import Footer from "../component/Footer";
 import Head from "next/head";
