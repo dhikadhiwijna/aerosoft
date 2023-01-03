@@ -1,6 +1,6 @@
 import { NextPage } from "next";
 import { useState, useCallback, useRef, useContext } from "react";
-import Image from "next/image";
+import Image from "next/legacy/image";
 import React from "react";
 import imageHeader from "../public/assets/headerimage1.jpg";
 import styles from "../styles/Home.module.css";
@@ -98,8 +98,8 @@ const MastHead: NextPage = () => {
           <Image
             src="/assets/svg/icon-banner.svg"
             alt="Phone Logo"
-            width={300}
-            height={500}
+            width={504}
+            height={840}
             onLoad={handleImageLoaded}
             priority
           />

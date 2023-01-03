@@ -5,18 +5,18 @@ const ContactUs = () => {
   return (
     <section className="bg-light-white py-8" id="contactus">
       <div className="container mx-auto px-5 flex flex-col lg:flex-row items-center text-center">
-        <h1 className="lg:hidden text-4xl md:text-5xl pb-12 font-bold">
+        <h2 className="lg:hidden text-4xl md:text-5xl pb-12 font-bold">
           Contact Us
-        </h1>
+        </h2>
         <h3 className="lg:hidden pb-8 text-xl uppercase">
           Have a question? Give us a call or fill out the contact form -
           we&apos;d love to hear from you
         </h3>
 
         <div className="hidden lg:block w-1/2 text-left">
-          <h1 className="text-4xl md:text-4xl pb-12 font-bold text-gray">
+          <h2 className="text-4xl md:text-4xl pb-12 font-bold text-gray">
             Want to ask our team directly?
-          </h1>
+          </h2>
           <h3 className="pb-8 text-xl">
             Ask anything here instead. Our team will get back to you within 24
             hours at maximum

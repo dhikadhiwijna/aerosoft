@@ -1,4 +1,4 @@
-import Image from "next/image";
+import Image from "next/legacy/image";
 import React from "react";
 import { Tile, TileBackground, TileContent, TileWrapper } from "./Tile";
 import { WorkBackground, WorkContainer, WorkLeft, WorkRight } from "./Work";

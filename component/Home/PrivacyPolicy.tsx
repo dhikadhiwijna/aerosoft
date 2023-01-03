@@ -5,7 +5,7 @@ const PrivacyPolicy = () => {
   return (
     <section className="bg-white" id="privacypolicy">
       <div className="container justify-center items-center mx-auto px-4 md:px-24 flex flex-1 flex-col py-12 bg-white text-center">
-        <h1 className="text-4xl font-semibold pb-6">Privacy &amp; Policy</h1>
+        <h1 className="text-4xl font-semibold pb-6">Terms &amp; Policy</h1>
 
         <p
           style={{ textAlign: "justify", textJustify: "inter-word" }}
@@ -22,7 +22,7 @@ const PrivacyPolicy = () => {
 
         <Link href="/privacy-policy">
           <button className="py-3 px-12 rounded-md duration-300 hover:bg-pink bg-light-green text-white my-6">
-            Read More
+            Terms &amp; Policy
           </button>
         </Link>
       </div>

@@ -6,7 +6,7 @@ import {
   Button,
   IconButton,
 } from "@material-tailwind/react";
-import Image from "next/image";
+import Image from "next/legacy/image";
 import { ScrollContext } from "../utils/scroll-observer";
 import { animateScroll as Scroll } from "react-scroll";
 import { useRouter } from "next/router";
@@ -34,56 +34,50 @@ const NavigationBar = () => {
           : "text-dark-gray"
       }`}
     >
-      <Link href="/about-us">
-        <Typography
-          as="li"
-          variant="small"
-          color="blue-gray"
-          className="hover:drop-shadow-[1px_1px_1px_rgba(255,255,255,0.8)] duration-300 p-1 font-normal cursor-pointer text-md"
-        >
-          About Us
-        </Typography>
-      </Link>
-      <Link href="privacy-policy">
-        <Typography
-          as="li"
-          variant="small"
-          color="blue-gray"
-          className="hover:drop-shadow-[1px_1px_1px_rgba(255,255,255,0.8)] duration-300 p-1 font-normal cursor-pointer text-md"
-        >
-          Terms &amp; Policy
-        </Typography>
-      </Link>
-      <Link href="contact-us">
-        <Typography
-          as="li"
-          variant="small"
-          color="blue-gray"
-          className="hover:drop-shadow-[1px_1px_1px_rgba(255,255,255,0.8)] duration-300 p-1 font-normal cursor-pointer text-md"
-        >
-          Contact Us
-        </Typography>
-      </Link>
-      <Link href="career">
-        <Typography
-          as="li"
-          variant="small"
-          color="blue-gray"
-          className="hover:drop-shadow-[1px_1px_1px_rgba(255,255,255,0.8)] duration-300 p-1 font-normal cursor-pointer text-md"
-        >
-          Career
-        </Typography>
-      </Link>
-      <Link href="support-center">
-        <Typography
-          as="li"
-          variant="small"
-          color="blue-gray"
-          className="hover:drop-shadow-[1px_1px_1px_rgba(255,255,255,0.8)] duration-300 p-1 font-normal cursor-pointer text-md"
-        >
-          Support Center
-        </Typography>
-      </Link>
+      <Typography
+        as="li"
+        variant="small"
+        color="blue-gray"
+        className="hover:drop-shadow-[1px_1px_1px_rgba(255,255,255,0.8)] duration-300 p-1 font-normal cursor-pointer text-md"
+      >
+        <Link href="/about-us">About Us</Link>
+      </Typography>
+
+      <Typography
+        as="li"
+        variant="small"
+        color="blue-gray"
+        className="hover:drop-shadow-[1px_1px_1px_rgba(255,255,255,0.8)] duration-300 p-1 font-normal cursor-pointer text-md"
+      >
+        <Link href="/privacy-policy">Terms &amp; Policy</Link>
+      </Typography>
+
+      <Typography
+        as="li"
+        variant="small"
+        color="blue-gray"
+        className="hover:drop-shadow-[1px_1px_1px_rgba(255,255,255,0.8)] duration-300 p-1 font-normal cursor-pointer text-md"
+      >
+        <Link href="/contact-us">Contact Us</Link>
+      </Typography>
+
+      <Typography
+        as="li"
+        variant="small"
+        color="blue-gray"
+        className="hover:drop-shadow-[1px_1px_1px_rgba(255,255,255,0.8)] duration-300 p-1 font-normal cursor-pointer text-md"
+      >
+        <Link href="/career">Career</Link>
+      </Typography>
+
+      <Typography
+        as="li"
+        variant="small"
+        color="blue-gray"
+        className="hover:drop-shadow-[1px_1px_1px_rgba(255,255,255,0.8)] duration-300 p-1 font-normal cursor-pointer text-md"
+      >
+        <Link href="support-center">Support Center</Link>
+      </Typography>
     </ul>
   );
 
@@ -103,8 +97,8 @@ const NavigationBar = () => {
               <Image
                 src="/assets/png/logo.png"
                 alt="Funtravia-Logo"
-                width={30}
-                height={30}
+                width={32}
+                height={26}
               />
               <h3
                 className={`text-xl ${

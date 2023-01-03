@@ -64,7 +64,7 @@ const AboutUs: NextPage = () => {
       </Head>
       {/* header */}
       <div
-        className="flex flex-col justify-center items-center min-h-[75vh] bg-light-white sticky -mt-[3.7em] md:-mt-[4.7em] -z-10"
+        className="flex flex-col justify-center items-center max-h-[75vh] bg-light-white sticky -mt-[3.7em] md:-mt-[4.7em] -z-10"
         id="header"
       >
         <Image

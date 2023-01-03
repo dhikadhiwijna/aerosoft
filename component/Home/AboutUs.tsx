@@ -1,4 +1,4 @@
-import Image from "next/image";
+import Image from "next/legacy/image";
 import React, { useEffect, useState } from "react";
 import {
   MouseParallaxChild,
@@ -168,7 +168,7 @@ const AboutUs: React.FC = () => {
                 width={70}
                 height={70}
               />
-              <h5>Easy to Create</h5>
+              <span>Easy to Create</span>
             </div>
 
             <div className="flex flex-col items-center  gap-2 w-32">
@@ -178,7 +178,7 @@ const AboutUs: React.FC = () => {
                 width={70}
                 height={70}
               />
-              <h5>Hundreds Destination</h5>
+              <p>Hundreds Destination</p>
             </div>
             <div className="flex flex-col items-center  gap-2 w-32">
               <Image
@@ -187,7 +187,7 @@ const AboutUs: React.FC = () => {
                 width={70}
                 height={70}
               />
-              <h5>Connect &amp; Share</h5>
+              <span>Connect &amp; Share</span>
             </div>
             <div className="flex flex-col items-center  gap-2 w-32">
               <Image
@@ -196,7 +196,7 @@ const AboutUs: React.FC = () => {
                 width={70}
                 height={70}
               />
-              <h5>Chat With Travel Buddy</h5>
+              <span>Chat With Travel Buddy</span>
             </div>
           </div>
         </div>

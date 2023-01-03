@@ -1,6 +1,7 @@
-import Image from "next/image";
+import Image from "next/legacy/image";
+import Link from "next/link";
 import React from "react";
-import { Link, animateScroll as Scroll } from "react-scroll";
+import { animateScroll as Scroll } from "react-scroll";
 
 const Footer = () => {
   return (
@@ -35,44 +36,16 @@ const Footer = () => {
 
           <div className="flex gap-3 flex-col items-center text-md font-light text-center pb-6">
             <h3 className="font-bold text-lg">Home</h3>
-            <Link
-              className="link"
-              to="aboutus"
-              spy={true}
-              smooth={true}
-              offset={-50}
-              duration={500}
-            >
+            <Link href="/about-us">
               <button>About Us</button>
             </Link>
-            <Link
-              className="link"
-              to="privacypolicy"
-              spy={true}
-              smooth={true}
-              offset={-50}
-              duration={500}
-            >
+            <Link href="privacy-policy">
               <button>Privacy &amp; Policy</button>
             </Link>
-            <Link
-              className="link"
-              to="contactus"
-              spy={true}
-              smooth={true}
-              offset={-50}
-              duration={500}
-            >
+            <Link href="contact-us">
               <button>Contact Us</button>
             </Link>
-            <Link
-              className="link"
-              to="footer"
-              spy={true}
-              smooth={true}
-              offset={-50}
-              duration={500}
-            >
+            <Link href="/career">
               <button>Career</button>
             </Link>
           </div>
