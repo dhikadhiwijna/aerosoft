@@ -13,6 +13,7 @@ export const RouteContext = React.createContext<RouteValue>({ route: "/" });
 
 const RouteObserver: React.FC<Observer> = ({ children }) => {
   const router = useRouter();
+  const { route } = router;
 
   return (
     <RouteContext.Provider value={{ route }}>{children}</RouteContext.Provider>
@@ -20,3 +21,4 @@ const RouteObserver: React.FC<Observer> = ({ children }) => {
 };
 
 export default RouteObserver;
+
